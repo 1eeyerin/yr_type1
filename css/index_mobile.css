@@ -47,6 +47,9 @@ html{overflow:hidden}
 .bb_slide .img span.i2{left:50%;background-position: center top;}
 .bb_slide .v01 .img span{background-image:url(../images/main/v01.jpg)}
 .bb_slide .v02 .img span{background-image:url(../images/main/v02.jpg)}
+.bb_slide .v03 .img span{background-image:url(../images/main/v03.jpg)}
+.bb_slide .v04 .img span{background-image:url(../images/main/v04.jpg)}
+.bb_slide .v05 .img span{background-image:url(../images/main/v05.jpg)}
 .bb_slide_indicator{position:absolute;top:50%;right: 32px;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:1100;}
 .bb_slide_indicator button{display:block;height: 30px;background:#fff;width: 3px;-webkit-transition:.3s;transition:.3s;outline:0;border:0;font-size:0;}
 .bb_slide_indicator li.on button{background:#94775f;}

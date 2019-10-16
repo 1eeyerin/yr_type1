@@ -45,6 +45,9 @@ html{overflow:hidden}
 .bb_slide .img span.i2{left:50%;background-position: center top;}
 .bb_slide .v01 .img span{background-image:url(../images/main/v01.jpg)}
 .bb_slide .v02 .img span{background-image:url(../images/main/v02.jpg)}
+.bb_slide .v03 .img span{background-image:url(../images/main/v03.jpg)}
+.bb_slide .v04 .img span{background-image:url(../images/main/v04.jpg)}
+.bb_slide .v05 .img span{background-image:url(../images/main/v05.jpg)}
 #wrap footer{bottom:9.5vh;z-index:1000;padding:0}
 #wrap footer div.wrap{color:rgba(255,255,255,0.7);opacity:0;-webkit-transform:translateY(100px);transform:translateY(100px);-webkit-transition:1s cubic-bezier(0.61,0,0.18,1) .15s;transition:1s cubic-bezier(0.61,0,0.18,1) .15s}
 #wrap footer div.wrap address{display:inline-block;vertical-align:top}
