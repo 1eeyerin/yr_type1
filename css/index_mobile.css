@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* ======== 모바일 상단 */
+.pc_br {display:none !important;}
+.pt_br {display:none !important;}
+.tb_br {display:none !important;}
+.tm_br {display:block !important;}
+.mb_br{display:block !important;}
+
+
+/* 메인 팝업 */
+.main_layer_popup {width:80% !important; left:50% !important; transform:translateX(-50%);}
+.main_layer_popup .popupContent{height: 100% !important;}
+.main_layer_popup img {width:100%;}
+
+
+
+/* default */
+*::-moz-selection{background:0}
+*::selection{background:0}
+html{overflow:hidden}
+#wrap,#contents,#container,main{height:100%}
+/* ============ */
+
+
+
+.bb-bookblock .img img{-o-object-fit:cover;object-fit:cover;width:100vw;height:100vh}
+.main_visual{position:absolute;top:50%;left:0;z-index:110;width:100%;text-align:center;-webkit-transform:translateY(-50%);transform:translateY(-50%);margin-top:-10px}
+.main_visual h1.tit1{font-family:'Raleway';font-size: 3.6rem;color:#fff;text-transform:uppercase;line-height:1;letter-spacing: 1px;font-weight: 700;-webkit-transition: .4s .1s, opacity .6s ease-in-out;transition: .4s .1s, opacity .6s ease-in-out;opacity: 0;}
+.main_visual h1.tit1::-moz-selection{background:#ddd}
+.main_visual h1.tit1::selection{background:#ddd}
+.main_visual p.txt1{color:rgba(255,255,255,0.8);font-size: 1.2rem;font-weight:300;line-height: 1.5;margin-top: 10px;-webkit-transition: .4s .1s, opacity 0.6s ease-in-out .5s;transition: .4s .1s, opacity 0.6s ease-in-out .5s;opacity: 0;}
+.main_visual p.txt1::-moz-selection{background:#ddd}
+.main_visual p.txt1::selection{background:#ddd}
+.main_visual .more{margin-top: 26px;opacity: 0;-webkit-transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;-webkit-transform: translateY(15px);transform: translateY(15px);}
+.main_visual .more a{display:block;width: 40px;height: 40px;margin:0 auto;background: url(/images/main/main_more_btn.png) no-repeat center /40px 40px;line-height: 35px;}
+.main_visual .more a img{display:inline-block;vertical-align:middle;width: 12px;}
+.main_visual .more a img::-moz-selection{background:#ddd}
+.main_visual .more a img::selection{background:#ddd}
+.main_visual .more a:hover img{-webkit-transition:.4s;transition:.4s;-webkit-transform: translateX(-4px);transform: translateX(-4px);}
+.bb_slide .item{height:100%;position:absolute;top:0;left:0;width:100%;display:none;z-index:1}
+.bb_slide .item.current{display:block}
+.bb_slide .img{height:100%;overflow:hidden}
+.bb_slide{height:100%;position:absolute;top:0;left:0;width:100%;background:#0a0806}
+.bb_slide_wrap{height:100%}
+.bb_slide .img span{display:block;width:50%;height:100%;position:absolute;top:0;left:0;background-attachment: fixed;background-size: auto 100%;background-repeat: no-repeat;}
+.bb_slide .img span.i1{background-position: center top;}
+.bb_slide .img span.i2{left:50%;background-position: center top;}
+.bb_slide .v01 .img span{background-image:url(../images/main/v01.jpg)}
+.bb_slide .v02 .img span{background-image:url(../images/main/v02.jpg)}
+.bb_slide_indicator{position:absolute;top:50%;right: 32px;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:1100;}
+.bb_slide_indicator button{display:block;height: 30px;background:#fff;width: 3px;-webkit-transition:.3s;transition:.3s;outline:0;border:0;font-size:0;}
+.bb_slide_indicator li.on button{background:#94775f;}
+.bb_slide_indicator li + li{margin-top: 8px;}
+#wrap footer{position:absolute;bottom: 6.5vh;left: 0;right: 0;min-width:auto;z-index:1000;background:none;padding:0;}
+#wrap footer div.wrap{color:rgba(255,255,255,0.7);text-align: center;}
+#wrap footer div.wrap .info address {margin-right:0;}
+#wrap footer div.wrap .info{float:none;display:block}
+#wrap footer div.wrap .copy{float:none;display:block}
+#wrap footer div.wrap{opacity: 0;-webkit-transform: translateY(50px);transform: translateY(50px);-webkit-transition: 1s cubic-bezier(0.61, 0, 0.18, 1) .05s;transition: 1s cubic-bezier(0.61, 0, 0.18, 1) .05s;}
+body.ani #wrap footer div.wrap {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+body.ani .indicator {
+    opacity: 1;
+    -webkit-transform: translateY(-50%) translateX(0px);
+    transform: translateY(-50%) translateX(0px);
+}
+body.ani .main_visual h1.tit1{opacity:1}
+body.ani .main_visual p.txt1{opacity:1}
+body.ani .main_visual .more {opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
