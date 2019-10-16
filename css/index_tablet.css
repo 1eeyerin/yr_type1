@@ -28,15 +28,15 @@ html{overflow:hidden}
 .main_visual p.txt1{color:rgba(255,255,255,0.8);font-size: 1.4rem;font-weight:300;line-height: 1.4rem;margin-top: 22px;-webkit-transition: .4s .1s, opacity 0.8s ease-in-out .5s;transition: .4s .1s, opacity 0.8s ease-in-out .5s;opacity: 0;}
 .main_visual p.txt1::-moz-selection{background:#ddd}
 .main_visual p.txt1::selection{background:#ddd}
-.main_visual .more{margin-top:42px;opacity: 0;-webkit-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;-webkit-transform: translateY(20px);transform: translateY(20px);}
-.main_visual .more a{display:block;width: 60px;height: 60px;margin:0 auto;background: url(../images/main/main_more_btn.png) no-repeat center /60px 60px;line-height: 57px;}
+.main_visual .more{margin-top: 10px;opacity: 0;-webkit-transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;transition: all 2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;-webkit-transform: translateY(20px);transform: translateY(20px);}
+.main_visual .more a{display:block;width: 60px;height: 60px;margin:0 auto;line-height: 57px;}
 .main_visual .more a img{display:inline-block;vertical-align:middle;width: 18px;}
 .main_visual .more a img::-moz-selection{background:#ddd}
 .main_visual .more a img::selection{background:#ddd}
 .main_visual .more a:hover img{-webkit-transition:.4s;transition:.4s;-webkit-transform: translateX(-4px);transform: translateX(-4px);}
 .bb_slide_indicator{position:absolute;top:50%;right: 44px;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:1100;}
 .bb_slide_indicator button{display:block;height: 4px;background:#fff;width: 28px;margin-left:8px;-webkit-transition:.3s;transition:.3s;outline:0;border:0;font-size:0;}
-.bb_slide_indicator li.on button{background:#94775f;margin-left:0;width: 44px;}
+.bb_slide_indicator li.on button{background: #000;margin-left:0;width: 44px;}
 .bb_slide_indicator li + li{margin-top: 20px;}
 .bb_slide .item{height:100%;position:absolute;top:0;left:0;width:100%;display:none;z-index:1}
 .bb_slide .item.current{display:block}

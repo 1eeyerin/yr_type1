@@ -32,7 +32,7 @@ html{overflow:hidden}
 .main_visual p.txt1::-moz-selection{background:#ddd}
 .main_visual p.txt1::selection{background:#ddd}
 .main_visual .more{margin-top: 26px;opacity: 0;-webkit-transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;-webkit-transform: translateY(15px);transform: translateY(15px);}
-.main_visual .more a{display:block;width: 40px;height: 40px;margin:0 auto;background: url(../images/main/main_more_btn.png) no-repeat center /40px 40px;line-height: 35px;}
+.main_visual .more a{display:block;width: 40px;height: 40px;margin:0 auto;line-height: 35px;}
 .main_visual .more a img{display:inline-block;vertical-align:middle;width: 12px;}
 .main_visual .more a img::-moz-selection{background:#ddd}
 .main_visual .more a img::selection{background:#ddd}
@@ -52,7 +52,7 @@ html{overflow:hidden}
 .bb_slide .v05 .img span{background-image:url(../images/main/v05.jpg)}
 .bb_slide_indicator{position:absolute;top:50%;right: 32px;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:1100;}
 .bb_slide_indicator button{display:block;height: 30px;background:#fff;width: 3px;-webkit-transition:.3s;transition:.3s;outline:0;border:0;font-size:0;}
-.bb_slide_indicator li.on button{background:#94775f;}
+.bb_slide_indicator li.on button{background: #000;}
 .bb_slide_indicator li + li{margin-top: 8px;}
 #wrap footer{position:absolute;bottom: 6.5vh;left: 0;right: 0;min-width:auto;z-index:1000;background:none;padding:0;}
 #wrap footer div.wrap{color:rgba(255,255,255,0.7);text-align: center;}

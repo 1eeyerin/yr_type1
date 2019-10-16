@@ -30,7 +30,7 @@ function mainSlide(selector, naviSelector, speed) {
 			$slide : $(selector).find('.item'),
 			$now : $(selector).find('.item.v0'+n),
 			$con : $(selector).find('.item span'),
-			$time : 3,
+			$time : 2,
 		}
 
 		//init
@@ -56,7 +56,7 @@ function mainSlide(selector, naviSelector, speed) {
 					css: {
 						height:'100%', 
 					},
-					ease:Power4.easeInOut,	//이징효과
+					ease:Expo.easeInOut,	//이징효과
 					onComplete:moveSlide,	//호출 함수
 				}, .2);
 				config.$direction = 'bottom';	//top -> bottom -> top -> bottom
@@ -68,7 +68,7 @@ function mainSlide(selector, naviSelector, speed) {
 					css: {
 						height:'100%',
 					},
-					ease:Power4.easeInOut,	//이징효과
+					ease:Expo.easeInOut,	//이징효과
 					onComplete:moveSlide,	//호출 함수
 				}, .2);
 				config.$direction = 'top';	//top -> bottom -> top -> bottom
