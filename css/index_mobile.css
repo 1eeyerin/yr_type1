@@ -32,7 +32,7 @@ html{overflow:hidden}
 .main_visual p.txt1::-moz-selection{background:#ddd}
 .main_visual p.txt1::selection{background:#ddd}
 .main_visual .more{margin-top: 26px;opacity: 0;-webkit-transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;transition: all 1.2s cubic-bezier(0.19, 1, 0.22, 1) 1.2s;-webkit-transform: translateY(15px);transform: translateY(15px);}
-.main_visual .more a{display:block;width: 40px;height: 40px;margin:0 auto;background: url(/images/main/main_more_btn.png) no-repeat center /40px 40px;line-height: 35px;}
+.main_visual .more a{display:block;width: 40px;height: 40px;margin:0 auto;background: url(../images/main/main_more_btn.png) no-repeat center /40px 40px;line-height: 35px;}
 .main_visual .more a img{display:inline-block;vertical-align:middle;width: 12px;}
 .main_visual .more a img::-moz-selection{background:#ddd}
 .main_visual .more a img::selection{background:#ddd}
